@@ -3,6 +3,7 @@ import avengers.ironman;
 import avengers.Hulk;
 import avengers.CaptainAmerica;
 import avengers.Thor;
+import avengers.Spiderman;
 import guardian.StarLord;
 class Main{
 public static void main(String[] args){
@@ -59,6 +60,18 @@ StarLord obj5 = new StarLord("Peter Quill",
 	false);
 obj5.dialoge();
 obj5.displayInfo();
+Spiderman spiderman = new Spiderman("Peter Parker",
+    95,
+    94,
+    "Avengers",
+    "Human",
+    "Iron Spider",
+    100,
+    true
+);
+
+spiderman.dialogue();
+spiderman.displayInfo();
 	
 
 }
